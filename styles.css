@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700');
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 * {
   box-sizing: border-box;
   margin: 0;
@@ -66,12 +67,14 @@ nav div {
 }
 
 .about-text{
-  font-size: 2.5em;
-  font-weight: 500;
+  font-size: 2.8em;
+  font-weight: 600;
   text-align: center;
-  padding-top:1em;
-  padding-left: 5em;
-  padding-right:5em;
+  padding-top:0.8em;
+  padding-bottom:0.8em;
+  padding-left: 5.5em;
+  padding-right:5.5em;
+
 }
 
 .text-highlight{
@@ -81,8 +84,8 @@ nav div {
 }
 
 .headshot{
-  padding-left: 36%;
-  padding-top:3em;
+  padding-left: 26%;
+
 }
 
   /* navs class*/
@@ -116,7 +119,7 @@ nav ul a:hover {
 
 .home-about{
   background-color: #C6DABF  ;
-  height: 90%;
+  height: 95%;
 }
 
 .home-exp{
