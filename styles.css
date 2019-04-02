@@ -79,8 +79,8 @@ nav div {
   text-align: center;
   padding-top:2em;
   padding-bottom:0.8em;
-  padding-left: 5.5em;
-  padding-right:5.5em;
+  padding-left: 15%;
+  padding-right:15%;
   color: white;
 }
 
@@ -268,9 +268,9 @@ canvas {
 }
 #rcorners1 {
   border-radius: vw;
-  background: #DCDCDC ;
+  background: #66CC99 ;
   padding: 20px;
-  height: 20%;
+  height: 40%;
   top: 3vw;
   position: relative;
   width: 100%;
