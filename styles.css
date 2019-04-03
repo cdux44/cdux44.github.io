@@ -309,7 +309,7 @@ canvas {
 
   float: left;
   font-weight: 300;
-  font-size: 4.35em;
+  font-size: 3.4em;
   color: #000411;
   opacity: 1;
   transition: all 1.5s ease-in-out;
@@ -330,7 +330,26 @@ canvas {
 }
 /*Home screen intro END*/
 
+@keyframes float {
+	0% {
 
+		transform: translatey(0px);
+	}
+	50% {
+
+		transform: translatey(-15px);
+	}
+	100% {
+
+		transform: translatey(0px);
+	}
+}
+
+
+
+.avatar {
+	animation: float 4.5s ease-in-out infinite;
+}
 
 
 /*Scroll Prompt Start */
