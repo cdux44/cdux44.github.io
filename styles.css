@@ -489,7 +489,7 @@ html {
 
 
 /*Responsivenesss*/
-@media only screen and (min-width:768px){ /*Ipad*/
+@media only screen and (max-width:768px){ /*Ipad*/
     .text li {
         font-size: 33px;
     }
@@ -515,7 +515,7 @@ html {
     }
 }
 
-@media only screen and (min-width:375px){ /*iphone 7*/
+@media only screen and (max-width:375px){ /*iphone 7*/
 
     .text li {
         font-size: 33px;
