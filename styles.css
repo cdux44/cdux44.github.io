@@ -515,7 +515,7 @@ html {
     }
 }
 
-@media only screen and (min-width:768px){ /*iphone 7*/
+@media only screen and (min-width:375px){ /*iphone 7*/
 
     .text li {
         font-size: 33px;
