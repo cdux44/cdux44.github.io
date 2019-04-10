@@ -55,7 +55,7 @@ nav ul a:hover {
 
 nav {
     background-color: rgba(0,0,0,0) !important;
-    
+
 }
 
 .nav-wrapper {
@@ -486,3 +486,58 @@ html {
     }
 }
 /*Scroll Prompt End */
+
+
+/*Responsivenesss*/
+@media only screen and (min-width:768px){ /*Ipad*/
+    .text li {
+        font-size: 33px;
+    }
+    #mini-bio{
+        top: 42.5%;
+    }
+    .home-welcome{
+        height: 95%;
+    }
+
+    .home-about{
+        height: 62%;
+    }
+
+    .home-exp{
+
+        height: 100%;
+
+    }
+
+    .home-work{
+        height: 80%;
+    }
+}
+
+@media only screen and (min-width:768px){ /*iphone 7*/
+
+    .text li {
+        font-size: 33px;
+    }
+
+    .home-welcome{
+        height: 95%;
+    }
+
+    .home-about{
+        height: 45%;
+    }
+
+    .home-exp{
+
+        height: 80%;
+
+    }
+
+    .home-work{
+        height: 80%;
+    }
+
+
+}
