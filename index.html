@@ -148,7 +148,7 @@ d="M -300,80 v -20 c 200.0,0 300.0,-50 500,-50 s 300.0,50 500,50 s 300.0,-50 500
 
         </div>
 
-        <div data-aos="fade"  data-aos-duration="2000" >
+        <div data-aos="fade"  data-aos-delay="900" data-aos-duration="2000" >
             <div class="skill-main-title">Skills & Methods</div>
 
             <div class="row">
@@ -211,16 +211,40 @@ d="M -300,80 v -20 c 200.0,0 300.0,-50 500,-50 s 300.0,50 500,50 s 300.0,-50 500
 
 </svg> -->
 <section class = "home-work">
-    <div class="Title">Projects</div>
+    <div class="Title" style="color:white;">Projects</div>
 
 
 </section>
+
+
 
 <section class = "home-contact">
+  <div class="container">
+
+    <div class="contact-title">Eventually Everything Connects...</div>
+    <div  data-aos="fade-up"data-aos-delay="1000" data-aos-duration="600"  class="contact-title-small">so why don't we</div>
+    <div data-aos="fade-up"data-aos-delay="2000" data-aos-duration="600"  class="contact-text">Shoot me an email at: <a href="mailto:cdux.duxbury@live.ca?subject=Hello%20Chris"><span style= "color: #8FBC8F">cdux.duxbury@live.ca</span></a> </div>
+    <div data-aos="fade-up"data-aos-delay="2200" data-aos-duration="600"  class="contact-text" style="padding-top: 8%;">I'm also on:  <a href="https://www.linkedin.com/in/cduxbury/" target="_blank" ><span style="color: #4875B4;">linkedin</span></a>, <a href="https://www.instagram.com/cdux.design/?hl=en" target="_blank"><span style="color: #4E433C;">Instagram</span></a>, <a href="https://dribbble.com/cdux" target="_blank"><span style="color: #ea4c89 ;">Dribble</span></a>  </div>
+
+
+
+
+</div>
+
+
+
+
 
 </section>
 
 
+        <footer class="page-footer">
+            <div class="container">
+            <div class="valign-wrapper" style="height: 85%;">  © 2019 Crafted by Chris Duxbury</div>
+
+            </div>
+
+        </footer>
 
 <!--Initializing JavaScript at end of body for optimized loading-->
 <!-- <script type="text/javascript" src="materialize/js/materialize.min.js"></script> -->
@@ -279,8 +303,15 @@ $(function() {
             $('.nav-wrapper').removeClass('nav-green');
         }
 
+        if (scroll >= $('.home-work').position().top && scroll < $('.home-contact').position().top) {
+            $('.nav-wrapper').removeClass('nav-white');
+            $('.nav-wrapper').addClass('nav-green');
+        }
 
-
+        if (scroll >= $('.home-contact').position().top )  {
+            $('.nav-wrapper').addClass('nav-white');
+            $('.nav-wrapper').removeClass('nav-green');
+        }
 
     });
 });
