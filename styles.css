@@ -728,11 +728,11 @@ html {
     }
 
     .home-about{
-        height: 55%;
+        height: 65%;
     }
 
     .home-exp{
-        height: 45%;
+        height: 55%;
         font-size: 0.6rem;
     }
 
@@ -741,7 +741,7 @@ html {
     }
 
     .home-contact{
-      height: 90%;
+      height: 100%;
       font-size: 0.80rem;
     }
 }
