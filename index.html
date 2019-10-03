@@ -25,9 +25,9 @@
 
         <nav class="Mobile-Hide Tablet-Hide">
             <div class="nav-wrapper ">
-                <div class="brand-logo">cd.ux</div>
+                <div id = "home" class="brand-logo">cd.ux</div>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a  href="#welcome" id = "welcome">Welcome</a></li>
+                    <li><a href="#welcome" id = "welcome">Welcome</a></li>
                     <li><a href="#about" id = "about">About Me</a></li>
                     <li><a href="#exp" id = "exp">Experience </a></li>
                     <li><a href="#work" id = "work">My Work</a></li>
@@ -334,6 +334,11 @@ function timer2() {
     text.addClass("hidden");
     $('.mini-bio-text').addClass('hidden');
 }
+$("#home").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".home-welcome").offset().top},
+        'slow');
+});
 
 $("#welcome").click(function() {
     $('html,body').animate({
