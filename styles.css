@@ -69,7 +69,7 @@ nav div {
 }
 
 nav ul a:hover {
-    background-color: rgba(0,200,0,0.1) !important;
+    background-color: rgba(38,169,108,0.1) !important;
 }
 
 nav {
@@ -81,15 +81,15 @@ nav {
 .nav-wrapper {
     /* background-color: rgba(245,245,245,0.9) !important; */
 }
-
+/
 .nav-wrapper.nav-white{
      transition: background-color 0.4s ease;
-    background-color: rgb(245,245,245,0.5);
+    background-color: rgb(255,255,255,0.5);
 }
 
 .nav-wrapper.nav-green{
      transition: background-color 0.4s ease;
-    background-color: rgb(143,188,143,0.5);
+    background-color: rgb(248,248,255,0.5);
 }
 
 
@@ -138,14 +138,13 @@ nav {
 
 }
 .about-text{
-    font-size: 2.8em;
+    font-size: 2.8rem;
     font-weight: 500;
     text-align: center;
-    padding-top:2em;
-    padding-bottom:0.8em;
-    padding-left: 15%;
-    padding-right:15%;
-    color: white;
+    padding-bottom:0.8rem;
+
+
+    color: #696969;
 }
 
 .exp-title{
@@ -158,6 +157,16 @@ nav {
 
 }
 
+.work-text{
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  color: #696969;
+  margin-left: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
 .footer-text{
 
   font-weight:600;
@@ -165,12 +174,13 @@ nav {
 }
 
 .text-highlight{
-    color: #98FB98;
+    color: #26A96C;
 
 }
 
 .headshot{
-    padding-left: 26%;
+  margin-top: 45%;
+    margin-bottom: 2rem;
 
 }
 
@@ -189,7 +199,8 @@ background-color: #F5F5F5;
 
 .resume{
   font-size: 1.5em;
-  color: #808080;
+  background-color: #26A96C;
+  color: #f8f8ff;
   display: inline-block;
   font-weight:600;
   margin: auto;
@@ -197,15 +208,20 @@ background-color: #F5F5F5;
   padding: 15px;
 	margin-top:5% ;
   margin-left: 40%;
-	border: 1.5px solid #808080;
+	border: 1.5px solid #f8f8ff;
 	width: 20%;
+  border-radius: 0.8rem;
+  transition: transform .2s; /* Animation */
+}
 
+.resume:hover {
+  transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 
 
 .home-welcome{
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
     z-index: -500;
     /*
     font-family: 'Muli', sans-serif;
@@ -219,29 +235,31 @@ background-color: #F5F5F5;
 }
 
 .home-about{
-    background-color: #8FBC8F  ;
-    height: 105%;
+    background-color: #f8f8ff  ;
+    height: 100%;
 }
 
 .home-exp{
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
     height: 190%;
     position: relative;
 }
 
 .home-work{
-    background-color: #8FBC8F/*#C6DABF back up old green*/  ;
-    height: 75%;
+    background-color: #f8f8ff/*#C6DABF back up old green*/  ;
+    height: 100%;
 }
 
 
 .home-contact{
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
     height: 100%;
 }
 
+
+
 .page-footer{
-  background-color: #8FBC8F !important;
+  background-color: #26A96C !important;
 }
 /* Tester for circle logo on experiece(decided to go with images but good backup mockup)
 .circle2 {
@@ -327,6 +345,18 @@ html {
   text-align: center;
   padding-top: 8%;
 }
+
+.work-rectangle {
+  margin-top: 2rem;
+   transition: transform .2s; /* Animation */
+   border-radius: 1rem;
+}
+
+.work-rectangle:hover {
+  transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+</style>
+
 .skill-text{
     font-size: 1.3em;
     font-weight:500;
@@ -449,14 +479,18 @@ html {
 
 
 
-.avatar {
-    animation: float 4.5s ease-in-out infinite;
+.avatar:hover {
+   animation: float 4.5s ease-in-out infinite;
 }
 
 
 /*Scroll Prompt Start */
 
 #section03 { background: url(https://picsum.photos/1200/800?image=869) center center / cover no-repeat;}
+
+.scroll-text{
+
+}
 
 .demo a {
     position: absolute;
@@ -498,7 +532,7 @@ html {
     width: 46px;
     height: 46px;
     margin-left: -23px;
-    border: 1px solid black;
+    border: 1px solid #26A96C;
     border-radius: 100%;
     box-sizing: border-box;
 }
@@ -510,8 +544,8 @@ html {
     width: 16px;
     height: 16px;
     margin: -12px 0 0 -8px;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
+    border-left: 1px solid #26A96C;
+    border-bottom: 1px solid #26A96C;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     box-sizing: border-box;
@@ -524,7 +558,7 @@ html {
     content: '';
     width: 44px;
     height: 44px;
-    box-shadow: 0 0 0 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 0 0 rgba(38,169,108,.1);
     border-radius: 100%;
     opacity: 0;
     -webkit-animation: sdb03 3s infinite;
@@ -539,7 +573,7 @@ html {
         opacity: 1;
     }
     60% {
-        box-shadow: 0 0 0 60px rgba(0,0,0,.1);
+        box-shadow: 0 0 0 60px rgba(38,169,108,.1);
         opacity: 0;
     }
     100% {
@@ -570,7 +604,7 @@ html {
 .Tablet-Hide {display: }
 .Tablet-Show {display: none}
 
-@media only screen and (max-width:325px){ /*small phone portrait*/
+@media only screen and (max-width:375px) and (max-height:700px){ /*small phone portrait*/
   .Mobile-Hide {display: none}
   .Mobile-Show {display: inline}
 
@@ -607,16 +641,60 @@ html {
     }
 
     .home-work{
-        height: 45%;
+        height: 55%;
     }
 
     .home-contact{
       height: 100%;
       font-size: 0.6rem!important;
     }
+
+    .case-name{
+      font-size: 1.5rem;
+    }
+    .case-description{
+      font-size: 1rem;
+    }
+
+    .case-text{
+      font-size: 1rem;
+    }
+    .case-titles{
+      font-size: 1.2rem;
+    }
+  .Case-header{
+    height:20%;
+  }
+.Case-Problem{
+  padding-top:5rem;
+  height: 65%;
+}
+  .Case-intro{
+    height:40%;
+    padding-top:8rem;
+  }
+
+  .Case-Process{
+    height:455%;
+    padding-top:5rem;
+
+  }
+
+.Case-Solution{
+  padding-top: 3rem;
+  height: 325%;
 }
 
-@media only screen and (max-width:450px){ /*phone portrait*/
+.Case-Conclusion{
+  height: 70%;
+}
+
+}
+
+@media only screen  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait){ /*phone portrait*/
   .Mobile-Hide {display: none}
   .Mobile-Show {display: inline}
 
@@ -679,9 +757,53 @@ html {
       height: 110%;
       font-size: 0.80rem;
     }
+
+
+
+    .case-name{
+      font-size: 1.5rem;
+    }
+    .case-description{
+      font-size: 1rem;
+    }
+
+    .case-text{
+      font-size: 1rem;
+    }
+    .case-titles{
+      font-size: 1.2rem;
+    }
+  .Case-header{
+    height:20%;
+  }
+.Case-Problem{
+  padding-top:5rem;
+  height: 65%;
+}
+  .Case-intro{
+    height:40%;
+    padding-top:8rem;
+  }
+
+  .Case-Process{
+    height:375%;
+    padding-top:5rem;
+
+  }
+
+.Case-Solution{
+  padding-top: 3rem;
+  height: 275%;
 }
 
-@media only screen and (min-height: 715px) and (max-width:450px){ /*phone large portrait*/
+.Case-Conclusion{
+  height: 60%;
+}
+
+
+}
+
+@media only screen and (max-height: 750px) and (min-width: 400px) and (max-width:450px){ /*phone large portrait*/
   .Mobile-Hide {display: none}
   .Mobile-Show {display: inline}
 
@@ -739,13 +861,55 @@ html {
     }
 
     .home-work{
-        height: 35%;
+        height: 55%;
     }
 
     .home-contact{
       height: 110%;
       font-size: 0.80rem;
     }
+
+
+
+    .case-name{
+      font-size: 1.5rem;
+    }
+    .case-description{
+      font-size: 1rem;
+    }
+
+    .case-text{
+      font-size: 1rem;
+    }
+    .case-titles{
+      font-size: 1.2rem;
+    }
+  .Case-header{
+    height:30%;
+  }
+.Case-Problem{
+  padding-top:5rem;
+  height: 75%;
+}
+  .Case-intro{
+    height:40%;
+    padding-top:8rem;
+  }
+
+  .Case-Process{
+    height:400%;
+    padding-top:5rem;
+
+  }
+
+.Case-Solution{
+  padding-top: 3rem;
+  height: 315%;
+}
+
+.Case-Conclusion{
+  height: 60%;
+}
 }
 
 
@@ -805,7 +969,7 @@ html {
   }
 
   .home-work{
-      height: 80%;
+      height: 150%;
   }
 
   .home-contact{
@@ -813,9 +977,53 @@ html {
     font-size: 0.80rem;
   }
 
+
+  .case-name{
+    font-size: 1.5rem;
+  }
+  .case-description{
+    font-size: 1rem;
+  }
+
+  .case-text{
+    font-size: 1rem;
+  }
+  .case-titles{
+    font-size: 1.2rem;
+  }
+.Case-header{
+  height:150%;
+}
+.Case-Problem{
+padding-top:5rem;
+height: 100%;
+}
+.Case-intro{
+  height:40%;
+  padding-top:1rem;
 }
 
-@media only screen and (min-width:700px) and (max-width: 830px) and (max-height: 450px){ /*phone large landscape*/
+.Case-Process{
+  height:825%;
+  padding-top:5rem;
+
+}
+
+.Case-Solution{
+padding-top: 3rem;
+height: 975%;
+}
+
+.Case-Conclusion{
+height: 100%;
+}
+
+
+
+
+}
+
+@media only screen and (min-width:700px) and (max-width: 800px) and (max-height: 450px){ /*phone large landscape*/
   .Mobile-Hide {display: none}
   .Mobile-Show {display: inline}
 
@@ -871,7 +1079,7 @@ html {
   }
 
   .home-work{
-      height: 80%;
+      height: 120%;
   }
 
   .home-contact{
@@ -879,6 +1087,46 @@ html {
     font-size: 0.80rem;
   }
 
+
+  .case-name{
+    font-size: 1.5rem;
+  }
+  .case-description{
+    font-size: 1rem;
+  }
+
+  .case-text{
+    font-size: 1rem;
+  }
+  .case-titles{
+    font-size: 1.2rem;
+  }
+.Case-header{
+  height:120%;
+}
+.Case-Problem{
+padding-top:5rem;
+height: 90%;
+}
+.Case-intro{
+  height:40%;
+  padding-top:2rem;
+}
+
+.Case-Process{
+  height:715%;
+  padding-top:5rem;
+
+}
+
+.Case-Solution{
+padding-top: 3rem;
+height: 815%;
+}
+
+.Case-Conclusion{
+height: 80%;
+}
 }
 
 
@@ -908,13 +1156,41 @@ html {
   }
 
   .home-work{
-      height: 45%;
+      height: 55%;
   }
 
   .home-contact{
     height: 80%;
 
   }
+
+
+.Case-header{
+  height:40%;
+}
+.Case-Problem{
+padding-top:5rem;
+height: 65%;
+}
+.Case-intro{
+  height:45%;
+  padding-top:8rem;
+}
+
+.Case-Process{
+  height:450%;
+  padding-top:5rem;
+
+}
+
+.Case-Solution{
+padding-top: 3rem;
+height: 250%;
+}
+
+.Case-Conclusion{
+height: 100%;
+}
 }
 
 @media only screen and (min-width:700px) and (max-width:1050px) and (min-height:1200px) and (max-height: 1400px){ /*tablet large portrait  */
@@ -959,6 +1235,34 @@ html {
     font-size: 1.1em;
 
   }
+
+
+  .Case-header{
+    height:50%;
+  }
+  .Case-Problem{
+  padding-top:5rem;
+  height: 45%;
+  }
+  .Case-intro{
+    height:35%;
+    padding-top:8rem;
+  }
+
+  .Case-Process{
+    height:350%;
+    padding-top:5rem;
+
+  }
+
+  .Case-Solution{
+  padding-top: 5rem;
+  height: 210%;
+  }
+
+  .Case-Conclusion{
+  height: 65%;
+  }
 }
 
   @media only screen and (min-width:900px) and (max-width:1400px) and (min-height:700px) and (max-height: 899px){ /*tablet landscape */
@@ -988,12 +1292,40 @@ html {
     }
 
     .home-work{
-        height: 60%;
+        height: 80%;
     }
 
     .home-contact{
       height: 100%;
 
+    }
+
+
+    .Case-header{
+      height:80%;
+    }
+    .Case-Problem{
+    padding-top:5rem;
+    height: 75%;
+    }
+    .Case-intro{
+      height:55%;
+      padding-top:8rem;
+    }
+
+    .Case-Process{
+      height:610%;
+      padding-top:5rem;
+
+    }
+
+    .Case-Solution{
+    padding-top: 10rem;
+    height: 380%;
+    }
+
+    .Case-Conclusion{
+    height: 120%;
     }
 }
 
@@ -1025,12 +1357,39 @@ html {
   }
 
   .home-work{
-      height: 60%;
+      height: 80%;
   }
 
   .home-contact{
     font-size: 1.1em;
     height: 85%;
 
+  }
+
+  .Case-header{
+    height:80%;
+  }
+  .Case-Problem{
+  padding-top:5rem;
+  height: 55%;
+  }
+  .Case-intro{
+    height:45%;
+    padding-top:8rem;
+  }
+
+  .Case-Process{
+    height:465%;
+    padding-top:5rem;
+
+  }
+
+  .Case-Solution{
+  padding-top: 8rem;
+  height: 350%;
+  }
+
+  .Case-Conclusion{
+  height: 80%;
   }
 }

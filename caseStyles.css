@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*Case Pages*/
+
+.Case-Header{
+  background-color: #f8f8ff  ;
+
+  height: 90%;
+}
+
+.Case-Intro{
+  background-color: #f8f8ff  ;
+  height: 60%;
+  padding-top:15rem
+}
+
+.Case-Problem{
+  background-color: #FFFFFF  ;
+  height: 85%;
+  padding-top:15rem;
+}
+
+.Case-Process{
+  background-color: #f8f8ff  ;
+  height: 550%;
+  padding-top:10rem;
+}
+
+.Case-Solution{
+  background-color: #FFFFFF  ;
+  height: 415%;
+  padding-top:7rem;
+}
+
+.Case-Conclusion{
+  background-color: #f8f8ff  ;
+  height: 85%;
+}
+
+.case-pic{
+  height:50%;
+  display: inline;
+
+}
+
+.case-name{
+  font-size: 3rem;
+  font-weight:700;
+  text-align: left;
+}
+
+.case-titles{
+  font-size: 2rem;
+  font-weight:700;
+  text-align: left;
+}
+
+.case-description{
+  font-size: 2rem;
+  font-weight:400;
+  text-align: left;
+}
+
+.case-text{
+  font-size: 1.5rem;
+  font-weight:300;
+  text-align: left;
+}
