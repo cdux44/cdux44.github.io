@@ -29,8 +29,8 @@
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#welcome" id = "welcome">Welcome</a></li>
                     <li><a href="#about" id = "about">About</a></li>
-                    <li><a href="#exp" id = "exp">Experience </a></li>
-                    <li><a href="#work" id = "work">My Work</a></li>
+                    <li><a href="#work" id = "work">Work</a></li>
+                    <li><a href="#exp" id = "exp">Expereince</a></li>
                     <li><a href="#contact" id = "contact">Contact</a></li>
                 </ul>
             </div>
@@ -147,6 +147,45 @@ d="M -300,80 v -20 c 200.0,0 300.0,-50 500,-50 s 300.0,50 500,50 s 300.0,-50 500
 
 </svg> -->
 
+<section class = "home-work">
+      <div class="Title" style="color:black;">Selected Work</div>
+  <div class="container">
+    <div class="row">
+
+        <div class="col s12">
+            <div class="work-rectangle"  style="text-align: center;position: relative;">
+
+              <a href="break.html">  <img src="Break.png" alt=""style="width:100%;"> </a>
+
+            </div>
+            <div class="work-text"><span style="font-weight: bold;"> <xmp><br/></xmp></span>UX, UI, Research, Design System</div>
+
+        </div>
+
+    <div class="col s12">
+        <div class="work-rectangle"  style="text-align: center;position: relative;">
+
+          <a href="macro.html">  <img src="Macro.png" alt=""style="width:100%;"> </a>
+
+        </div>
+        <div class="work-text"><span style="font-weight: bold;">Macro n' Cheese</span><br>UX, UI, Research, Design System</div>
+    </div>
+
+
+    <div class="col s12">
+
+    </div>
+
+
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
 <section class = "home-exp">
     <div class="container">
 
@@ -156,7 +195,7 @@ d="M -300,80 v -20 c 200.0,0 300.0,-50 500,-50 s 300.0,50 500,50 s 300.0,-50 500
         <div class="row ">
             <div class="col s4" style="text-align: center;position: relative;  ">
                 <img  src="tjxlogo.png" data-aos="fade-up" data-aos-delay="200" data-aos-duration="700" alt="" style="width: 90%; height: auto;" >
-                <div data-aos="fade"data-aos-delay="400" data-aos-duration="700" class= "exp-title ">Merchandise Flow Data Analyst<br> <span class = "Mobile-Hide" style="font-size: 0.6em">May 2019 - August 2019</span></div>
+                <div data-aos="fade"data-aos-delay="400" data-aos-duration="700" class= "exp-title ">Research Analyst<br> <span class = "Mobile-Hide" style="font-size: 0.6em">May 2019 - August 2019</span></div>
             </div>
 
             <div class="col s4" style="text-align: center;">
@@ -167,7 +206,7 @@ d="M -300,80 v -20 c 200.0,0 300.0,-50 500,-50 s 300.0,50 500,50 s 300.0,-50 500
             <div  class="col s4" style="text-align: center; margin: 0;">
 
                 <img  src="tjxlogo.png" data-aos="fade-up" data-aos-delay="600" data-aos-duration="700" alt="" style="width: 90%; height: auto;" >
-                <div data-aos="fade" data-aos-delay="800" data-aos-duration="700" class= "exp-title">Technical Desktop Analyst <br><span class = "Mobile-Hide" style="font-size: 0.6em">May 2018 - August 2018</span></div>
+                <div data-aos="fade" data-aos-delay="800" data-aos-duration="700" class= "exp-title">User Support Analyst <br><span class = "Mobile-Hide" style="font-size: 0.6em">May 2018 - August 2018</span></div>
 
             </div>
 
@@ -214,7 +253,7 @@ d="M -300,80 v -20 c 200.0,0 300.0,-50 500,-50 s 300.0,50 500,50 s 300.0,-50 500
                 </div>
             </div>
             <!-- Resume -->
-          <a href="https://cdux44.github.io/ChrisDuxbury_Resume.pdf" target="_blank" <span style = "color:#808080;">  <div class = "resume">Resume PDF</span></div></a>
+          <a href="https://cdux44.github.io/UX Resume.pdf" target="_blank" <span style = "color:#808080;">  <div class = "resume">Resume PDF</span></div></a>
         </div>
 
 
@@ -235,34 +274,7 @@ d="M -300,80 v -20 c 200.0,0 300.0,-50 500,-50 s 300.0,50 500,50 s 300.0,-50 500
 
 </svg>
 -->
-<section class = "home-work">
-      <div class="Title" style="color:black;">My Work</div>
-  <div class="container">
-    <div class="row">
 
-
-    <div class="col s12">
-        <div class="work-rectangle"  style="text-align: center;position: relative;">
-
-          <a href="macro.html">  <img src="Macro.png" alt=""style="width:100%;"> </a>
-
-        </div>
-        <div class="work-text"><span style="font-weight: bold;">Macro n' Cheese</span><br>UX, UI, Research, Design System</div>
-    </div>
-
-    <div class="col s12">
-
-    </div>
-    <div class="col s12">
-
-    </div>
-
-
-
-
-    </div>
-  </div>
-</section>
 
 
 
@@ -391,17 +403,20 @@ $("#about").click(function() {
         'slow');
 });
 
-$("#exp").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".home-exp").offset().top},
-        'slow');
-});
 
 $("#work").click(function() {
     $('html,body').animate({
         scrollTop: $(".home-work").offset().top},
         'slow');
 });
+
+$("#exp").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".home-exp").offset().top},
+        'slow');
+});
+
+
 
 $("#contact").click(function() {
     $('html,body').animate({

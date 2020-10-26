@@ -179,8 +179,9 @@ nav {
 }
 
 .headshot{
-  margin-top: 45%;
-    margin-bottom: 2rem;
+
+    margin-top: 45%;
+      margin-bottom: 2rem;
 
 }
 
@@ -218,7 +219,10 @@ background-color: #F5F5F5;
   transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-
+.vertical-align-row {
+    display: flex;
+    align-items: center;
+}
 
 .home-welcome{
     background-color: #FFFFFF;
@@ -227,7 +231,7 @@ background-color: #F5F5F5;
     font-family: 'Muli', sans-serif;
     font-weight: 300;
     */
-    height: 100%;
+    height: 90%;
     width: 100%;
     position: relative;
 
@@ -240,14 +244,15 @@ background-color: #F5F5F5;
 }
 
 .home-exp{
-    background-color: #FFFFFF;
+    background-color: #f8f8ff;
     height: 190%;
     position: relative;
 }
 
 .home-work{
     background-color: #f8f8ff/*#C6DABF back up old green*/  ;
-    height: 100%;
+    background-color: #FFFFFF;
+    height: 180%;
 }
 
 
@@ -354,8 +359,18 @@ html {
 
 .work-rectangle:hover {
   transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  opacity: 0.8;
 }
-</style>
+
+.work-rectangle:hover > .overlay {
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-color:#000;
+    opacity:0.5;
+    border-radius:30px;
+}
+
 
 .skill-text{
     font-size: 1.3em;
@@ -522,6 +537,12 @@ html {
     opacity: .5;
 }
 
+
+
+
+
+
+
 #section03 a {
     padding-top: 60px;
 }
@@ -649,45 +670,7 @@ html {
       font-size: 0.6rem!important;
     }
 
-    .case-name{
-      font-size: 1.5rem;
-    }
-    .case-description{
-      font-size: 1rem;
-    }
 
-    .case-text{
-      font-size: 1rem;
-    }
-    .case-titles{
-      font-size: 1.2rem;
-    }
-  .Case-header{
-    height:20%;
-  }
-.Case-Problem{
-  padding-top:5rem;
-  height: 65%;
-}
-  .Case-intro{
-    height:40%;
-    padding-top:8rem;
-  }
-
-  .Case-Process{
-    height:455%;
-    padding-top:5rem;
-
-  }
-
-.Case-Solution{
-  padding-top: 3rem;
-  height: 325%;
-}
-
-.Case-Conclusion{
-  height: 70%;
-}
 
 }
 
@@ -741,16 +724,16 @@ html {
     }
 
     .home-about{
-        height: 80%;
+        height: 60%;
     }
 
     .home-exp{
-        height: 65%;
+        height: 45%;
         font-size: 0.6rem;
     }
 
     .home-work{
-        height: 45%;
+        height: 80%;
     }
 
     .home-contact{
@@ -759,46 +742,6 @@ html {
     }
 
 
-
-    .case-name{
-      font-size: 1.5rem;
-    }
-    .case-description{
-      font-size: 1rem;
-    }
-
-    .case-text{
-      font-size: 1rem;
-    }
-    .case-titles{
-      font-size: 1.2rem;
-    }
-  .Case-header{
-    height:20%;
-  }
-.Case-Problem{
-  padding-top:5rem;
-  height: 65%;
-}
-  .Case-intro{
-    height:40%;
-    padding-top:8rem;
-  }
-
-  .Case-Process{
-    height:375%;
-    padding-top:5rem;
-
-  }
-
-.Case-Solution{
-  padding-top: 3rem;
-  height: 275%;
-}
-
-.Case-Conclusion{
-  height: 60%;
-}
 
 
 }
@@ -861,7 +804,7 @@ html {
     }
 
     .home-work{
-        height: 55%;
+        height: 95%;
     }
 
     .home-contact{
@@ -871,45 +814,7 @@ html {
 
 
 
-    .case-name{
-      font-size: 1.5rem;
-    }
-    .case-description{
-      font-size: 1rem;
-    }
 
-    .case-text{
-      font-size: 1rem;
-    }
-    .case-titles{
-      font-size: 1.2rem;
-    }
-  .Case-header{
-    height:30%;
-  }
-.Case-Problem{
-  padding-top:5rem;
-  height: 75%;
-}
-  .Case-intro{
-    height:40%;
-    padding-top:8rem;
-  }
-
-  .Case-Process{
-    height:400%;
-    padding-top:5rem;
-
-  }
-
-.Case-Solution{
-  padding-top: 3rem;
-  height: 315%;
-}
-
-.Case-Conclusion{
-  height: 60%;
-}
 }
 
 
@@ -977,46 +882,6 @@ html {
     font-size: 0.80rem;
   }
 
-
-  .case-name{
-    font-size: 1.5rem;
-  }
-  .case-description{
-    font-size: 1rem;
-  }
-
-  .case-text{
-    font-size: 1rem;
-  }
-  .case-titles{
-    font-size: 1.2rem;
-  }
-.Case-header{
-  height:150%;
-}
-.Case-Problem{
-padding-top:5rem;
-height: 100%;
-}
-.Case-intro{
-  height:40%;
-  padding-top:1rem;
-}
-
-.Case-Process{
-  height:825%;
-  padding-top:5rem;
-
-}
-
-.Case-Solution{
-padding-top: 3rem;
-height: 975%;
-}
-
-.Case-Conclusion{
-height: 100%;
-}
 
 
 
@@ -1088,45 +953,6 @@ height: 100%;
   }
 
 
-  .case-name{
-    font-size: 1.5rem;
-  }
-  .case-description{
-    font-size: 1rem;
-  }
-
-  .case-text{
-    font-size: 1rem;
-  }
-  .case-titles{
-    font-size: 1.2rem;
-  }
-.Case-header{
-  height:120%;
-}
-.Case-Problem{
-padding-top:5rem;
-height: 90%;
-}
-.Case-intro{
-  height:40%;
-  padding-top:2rem;
-}
-
-.Case-Process{
-  height:715%;
-  padding-top:5rem;
-
-}
-
-.Case-Solution{
-padding-top: 3rem;
-height: 815%;
-}
-
-.Case-Conclusion{
-height: 80%;
-}
 }
 
 
@@ -1151,12 +977,12 @@ height: 80%;
   }
 
   .home-exp{
-      height: 100%;
+      height: 110%;
       font-size: 0.7rem;
   }
 
   .home-work{
-      height: 55%;
+      height: 100%;
   }
 
   .home-contact{
@@ -1165,32 +991,6 @@ height: 80%;
   }
 
 
-.Case-header{
-  height:40%;
-}
-.Case-Problem{
-padding-top:5rem;
-height: 65%;
-}
-.Case-intro{
-  height:45%;
-  padding-top:8rem;
-}
-
-.Case-Process{
-  height:450%;
-  padding-top:5rem;
-
-}
-
-.Case-Solution{
-padding-top: 3rem;
-height: 250%;
-}
-
-.Case-Conclusion{
-height: 100%;
-}
 }
 
 @media only screen and (min-width:700px) and (max-width:1050px) and (min-height:1200px) and (max-height: 1400px){ /*tablet large portrait  */
@@ -1227,7 +1027,7 @@ height: 100%;
   }
 
   .home-work{
-      height: 45%;
+      height: 80%;
   }
 
   .home-contact{
@@ -1237,32 +1037,6 @@ height: 100%;
   }
 
 
-  .Case-header{
-    height:50%;
-  }
-  .Case-Problem{
-  padding-top:5rem;
-  height: 45%;
-  }
-  .Case-intro{
-    height:35%;
-    padding-top:8rem;
-  }
-
-  .Case-Process{
-    height:350%;
-    padding-top:5rem;
-
-  }
-
-  .Case-Solution{
-  padding-top: 5rem;
-  height: 210%;
-  }
-
-  .Case-Conclusion{
-  height: 65%;
-  }
 }
 
   @media only screen and (min-width:900px) and (max-width:1400px) and (min-height:700px) and (max-height: 899px){ /*tablet landscape */
@@ -1301,32 +1075,6 @@ height: 100%;
     }
 
 
-    .Case-header{
-      height:80%;
-    }
-    .Case-Problem{
-    padding-top:5rem;
-    height: 75%;
-    }
-    .Case-intro{
-      height:55%;
-      padding-top:8rem;
-    }
-
-    .Case-Process{
-      height:610%;
-      padding-top:5rem;
-
-    }
-
-    .Case-Solution{
-    padding-top: 10rem;
-    height: 380%;
-    }
-
-    .Case-Conclusion{
-    height: 120%;
-    }
 }
 
 @media only screen and (min-width:900px) and (max-width:1400px) and (min-height:900px) and (max-height: 1050px){ /*tablet large landscape */
@@ -1366,48 +1114,28 @@ height: 100%;
 
   }
 
-  .Case-header{
-    height:80%;
-  }
-  .Case-Problem{
-  padding-top:5rem;
-  height: 55%;
-  }
-  .Case-intro{
-    height:45%;
-    padding-top:8rem;
-  }
-
-  .Case-Process{
-    height:465%;
-    padding-top:5rem;
-
-  }
-
-  .Case-Solution{
-  padding-top: 8rem;
-  height: 350%;
-  }
-
-  .Case-Conclusion{
-  height: 80%;
-  }
 }
 
-@media only screen and (min-width:1400px) {
-    .Case-intro{
-      height:75%;
-      padding-top:30rem;
+@media only screen and (min-width:2000px) and (min-height:1500px) {
+
+
+
+    .home-about{
+        height: 70%;
     }
 
-    .Case-Process{
-      height:530%;
-      padding-top:5rem;
-
+    .home-exp{
+        height: 150%;
+        font-size: 1.1rem;
     }
 
-    .Case-Solution{
-    padding-top: 8rem;
-    height: 450%;
+    .home-work{
+        height: 120%;
+    }
+
+    .home-contact{
+      font-size: 1.1em;
+      height: 85%;
+
     }
 }

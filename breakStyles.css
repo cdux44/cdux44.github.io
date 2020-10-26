@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*Case Pages*/
+
+.Case-Header{
+  background-color: #f8f8ff ;
+  height: 110%;
+}
+
+.Case-Intro{
+     padding-top:5rem;
+  background-color: #f8f8ff   ;
+  height: 40%;
+
+
+}
+
+.Case-Problem{
+  background-color: #FFFFFF  ;
+  height: 85%;
+  padding-top:15rem;
+}
+
+.Case-Process{
+  background-color: #f8f8ff  ;
+  height: 630%;
+  padding-top:10rem;
+}
+
+.Case-Visual{
+  background-color: #FFFFFF  ;
+  height: 60%;
+  padding-top:7rem;
+
+}
+.Case-Video{
+  background-color: #81b29a  ;
+
+
+}
+.Case-Solution{
+  background-color: #f8f8ff ;
+  height: 330%;
+  padding-top:7rem;
+}
+
+.Case-Conclusion{
+  background-color: #FFFFFF  ;
+  height: 85%;
+}
+
+.case-pic{
+  height:50%;
+  display: inline;
+
+
+}
+
+.case-name{
+  font-size: 3rem;
+  font-weight:700;
+  text-align: left;
+}
+
+.case-titles{
+  font-size: 2rem;
+  font-weight:700;
+  text-align: left;
+}
+
+.case-description{
+  font-size: 2rem;
+  font-weight:400;
+  text-align: left;
+
+}
+
+.case-text{
+  font-size: 1.5rem;
+  font-weight:300;
+  text-align: left;
+}
+
+.vertical-align-row {
+    display: flex;
+    align-items: center;
+}
+
+/*Responsivenesss*/
+.Mobile-Hide {display: }
+.Mobile-Show {display: none}
+.Tablet-Hide {display: }
+.Tablet-Show {display: none}
+
+@media only screen and (max-width:375px) and (max-height:700px){ /*small phone portrait*/
+  .Mobile-Hide {display: none}
+  .Mobile-Show {display: inline}
+
+
+
+    .case-name{
+      font-size: 1.5rem;
+    }
+    .case-description{
+      font-size: 1rem;
+    }
+
+    .case-text{
+      font-size: 1rem;
+    }
+    .case-titles{
+      font-size: 1.2rem;
+    }
+  .Case-header{
+    height:20%;
+  }
+.Case-Problem{
+  padding-top:5rem;
+  height: 65%;
+}
+  .Case-intro{
+    height:40%;
+    padding-top:8rem;
+  }
+
+  .Case-Process{
+    height:455%;
+    padding-top:5rem;
+
+  }
+
+.Case-Solution{
+  padding-top: 3rem;
+  height: 325%;
+}
+
+.Case-Conclusion{
+  height: 70%;
+}
+
+}
+
+@media only screen  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait){ /*phone portrait*/
+  .Mobile-Hide {display: none}
+  .Mobile-Show {display: inline}
+
+
+
+
+
+    .case-name{
+      font-size: 1.5rem;
+    }
+    .case-description{
+      font-size: 1rem;
+    }
+
+    .case-text{
+      font-size: 1rem;
+    }
+    .case-titles{
+      font-size: 1.2rem;
+    }
+  .Case-header{
+    height:20%;
+  }
+.Case-Problem{
+  padding-top:5rem;
+  height: 90%;
+}
+  .Case-intro{
+    height:40%;
+    padding-top:8rem;
+  }
+
+  .Case-Process{
+    height:620%;
+    padding-top:5rem;
+
+  }
+
+
+  .Case-Visual{
+    background-color: #FFFFFF  ;
+    height: 50%;
+    padding-top:7rem;
+
+  }
+  .Case-Video{
+    background-color: #81b29a  ;
+
+
+  }
+.Case-Solution{
+  padding-top: 3rem;
+  height: 215%;
+}
+
+.Case-Conclusion{
+  height: 60%;
+}
+
+
+}
+
+@media only screen and (max-height: 750px) and (min-width: 400px) and (max-width:450px){ /*phone large portrait*/
+  .Mobile-Hide {display: none}
+  .Mobile-Show {display: inline}
+
+
+
+
+    .case-name{
+      font-size: 1.5rem;
+    }
+    .case-description{
+      font-size: 1rem;
+    }
+
+    .case-text{
+      font-size: 1rem;
+    }
+    .case-titles{
+      font-size: 1.2rem;
+    }
+  .Case-header{
+    height:30%;
+  }
+.Case-Problem{
+  padding-top:5rem;
+  height: 95%;
+}
+  .Case-intro{
+    height:40%;
+    padding-top:8rem;
+  }
+
+  .Case-Process{
+    height:660%;
+    padding-top:5rem;
+
+  }
+
+  .Case-Visual{
+    background-color: #FFFFFF  ;
+    height: 65%;
+    padding-top:7rem;
+
+  }
+  .Case-Video{
+    background-color: #81b29a  ;
+
+
+  }
+
+.Case-Solution{
+  padding-top: 3rem;
+  height: 260%;
+}
+
+.Case-Conclusion{
+  height: 60%;
+}
+}
+
+
+@media only screen and (min-width:450px) and (max-width: 830px) and (max-height: 450px){ /*phone landscape*/
+  .Mobile-Hide {display: none}
+  .Mobile-Show {display: inline}
+
+
+
+  .case-name{
+    font-size: 1.5rem;
+  }
+  .case-description{
+    font-size: 1rem;
+  }
+
+  .case-text{
+    font-size: 1rem;
+  }
+  .case-titles{
+    font-size: 1.2rem;
+  }
+.Case-header{
+  height:150%;
+}
+.Case-Problem{
+padding-top:5rem;
+height: 100%;
+}
+.Case-intro{
+  height:40%;
+  padding-top:1rem;
+}
+
+.Case-Process{
+  height:825%;
+  padding-top:5rem;
+
+}
+
+.Case-Solution{
+padding-top: 3rem;
+height: 975%;
+}
+
+.Case-Conclusion{
+height: 100%;
+}
+
+
+
+
+}
+
+@media only screen and (min-width:700px) and (max-width: 800px) and (max-height: 450px){ /*phone large landscape*/
+  .Mobile-Hide {display: none}
+  .Mobile-Show {display: inline}
+
+
+
+  .case-name{
+    font-size: 1.5rem;
+  }
+  .case-description{
+    font-size: 1rem;
+  }
+
+  .case-text{
+    font-size: 1rem;
+  }
+  .case-titles{
+    font-size: 1.2rem;
+  }
+.Case-header{
+  height:120%;
+}
+.Case-Problem{
+padding-top:5rem;
+height: 90%;
+}
+.Case-intro{
+  height:40%;
+  padding-top:2rem;
+}
+
+.Case-Process{
+  height:715%;
+  padding-top:5rem;
+
+}
+
+.Case-Solution{
+padding-top: 3rem;
+height: 815%;
+}
+
+.Case-Conclusion{
+height: 80%;
+}
+}
+
+
+
+@media only screen and (min-width:700px) and (max-width:1050px) and (min-height:900px) and (max-height: 1200px){ /*tablet portrait */
+  .Tablet-Hide {display: none}
+  .Tablet-Show {display: inline}
+
+
+
+.Case-header{
+  height:40%;
+}
+.Case-Problem{
+padding-top:5rem;
+height: 80%;
+}
+.Case-intro{
+  height:45%;
+  padding-top:8rem;
+}
+
+.Case-Process{
+  height:610%;
+  padding-top:5rem;
+
+}
+
+.Case-Visual{
+  background-color: #FFFFFF  ;
+  height: 35%;
+  padding-top:7rem;
+
+}
+.Case-Video{
+  background-color: #81b29a  ;
+
+
+}
+
+.Case-Solution{
+padding-top: 3rem;
+height: 300%;
+}
+
+.Case-Conclusion{
+height: 100%;
+}
+}
+
+@media only screen and (min-width:700px) and (max-width:1050px) and (min-height:1200px) and (max-height: 1400px){ /*tablet large portrait  */
+  .Tablet-Hide {display: none}
+  .Tablet-Show {display: inline}
+
+
+
+  .Case-header{
+    height:50%;
+  }
+  .Case-Problem{
+  padding-top:5rem;
+  height: 60%;
+  }
+  .Case-intro{
+    height:35%;
+    padding-top:8rem;
+  }
+
+  .Case-Process{
+    height:450%;
+    padding-top:5rem;
+
+  }
+
+  .Case-Visual{
+    background-color: #FFFFFF  ;
+    height: 35%;
+    padding-top:7rem;
+
+  }
+  .Case-Video{
+    background-color: #81b29a  ;
+
+
+  }
+
+  .Case-Solution{
+  padding-top: 5rem;
+  height: 230%;
+  }
+
+  .Case-Conclusion{
+  height: 70%;
+  }
+}
+
+  @media only screen and (min-width:900px) and (max-width:1400px) and (min-height:700px) and (max-height: 899px){ /*tablet landscape */
+    .Tablet-Hide {display: none}
+    .Tablet-Show {display: inline}
+
+
+    .Case-header{
+      height:80%;
+    }
+    .Case-Problem{
+    padding-top:5rem;
+    height: 75%;
+    }
+    .Case-intro{
+      height:55%;
+      padding-top:8rem;
+    }
+
+    .Case-Process{
+      height:610%;
+      padding-top:5rem;
+
+    }
+
+    .Case-Solution{
+    padding-top: 10rem;
+    height: 380%;
+    }
+
+    .Case-Conclusion{
+    height: 120%;
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width:1400px) and (min-height:900px) and (max-height: 1050px){ /*tablet large landscape */
+  .Tablet-Hide {display: none}
+  .Tablet-Show {display: inline}
+
+
+
+  .Case-header{
+    height:80%;
+  }
+  .Case-Problem{
+  padding-top:5rem;
+  height: 55%;
+  }
+  .Case-intro{
+    height:45%;
+    padding-top:8rem;
+  }
+
+  .Case-Process{
+    height:465%;
+    padding-top:5rem;
+
+  }
+
+  .Case-Solution{
+  padding-top: 8rem;
+  height: 350%;
+  }
+
+  .Case-Conclusion{
+  height: 80%;
+  }
+}
+
+@media only screen and (min-width:2000px) and (min-height:1500px) {
+  .Case-header{
+    height: 60vh;
+  }
+    .Case-intro{
+      height:50vh;
+      padding-top:30rem;
+    }
+
+    .Case-Problem{
+    padding-top:10rem;
+    height: 45%;
+    }
+
+    .Case-Process{
+      height:400%;
+      padding-top:10rem;
+
+    }
+
+    .Case-Visual{
+      background-color: #FFFFFF  ;
+      height: 35%;
+      padding-top:7rem;
+
+    }
+    .Case-Video{
+      background-color: #81b29a  ;
+
+
+    }
+
+    .Case-Solution{
+    padding-top: 8rem;
+    height: 200%;
+    }
+
+    .Case-Conclusion{
+    height: 50%;
+    }
+}
