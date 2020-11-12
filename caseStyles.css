@@ -12,12 +12,12 @@
 .Case-Header{
   background-color: #f8f8ff  ;
 
-  height: 90%;
+  height: 120%;
 }
 
 .Case-Intro{
   background-color: #f8f8ff  ;
-  height: 60%;
+  height: 70%;
   padding-top:15rem
 }
 
@@ -35,7 +35,7 @@
 
 .Case-Solution{
   background-color: #FFFFFF  ;
-  height: 415%;
+  height: 460%;
   padding-top:7rem;
 }
 
@@ -465,30 +465,4 @@ height: 100%;
   .Case-Conclusion{
   height: 80%;
   }
-}
-
-@media only screen and (min-width:1281px) {
-  .Case-header{
-    height:70%;
-  }
-    .Case-intro{
-      height:90%;
-      padding-top:30rem;
-    }
-
-    .Case-Problem{
-    padding-top:10rem;
-    height: 75%;
-    }
-
-    .Case-Process{
-      height:560%;
-      padding-top:10rem;
-
-    }
-
-    .Case-Solution{
-    padding-top: 8rem;
-    height: 430%;
-    }
 }
