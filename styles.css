@@ -140,10 +140,8 @@ nav {
 .about-text{
     font-size: 2.8rem;
     font-weight: 500;
-    text-align: center;
+    text-align: left;
     padding-bottom:0.8rem;
-
-
     color: #696969;
 }
 
@@ -174,14 +172,15 @@ nav {
 }
 
 .text-highlight{
-    color: #26A96C;
-
+     font-weight: 600;
+     color:#26A96C; 
 }
+
+
 
 .headshot{
 
-    margin-top: 45%;
-      margin-bottom: 2rem;
+
 
 }
 
@@ -204,15 +203,31 @@ background-color: #F5F5F5;
   color: #f8f8ff;
   display: inline-block;
   font-weight:600;
-  margin: auto;
-  text-align: center;
-  padding: 15px;
-	margin-top:5% ;
-  margin-left: 40%;
+    text-align: center;
+  padding: 15px 40px;
+	margin-top:2rem;
 	border: 1.5px solid #f8f8ff;
-	width: 20%;
+
   border-radius: 0.8rem;
+  white-space: nowrap;
   transition: transform .2s; /* Animation */
+}
+
+.recent-project {
+  font-size: 1.5em;
+  border: 3px solid #26A96C;
+  color: #26A96C;
+  display: inline-block;
+  font-weight:600;
+  margin: auto;
+  padding: 15px 40px;
+  white-space: nowrap;
+  transition: transform .2s; /* Animation */
+}
+
+.recent-project:hover{
+    background-color:#26A96C ;
+      color: white;
 }
 
 .resume:hover {
@@ -655,12 +670,12 @@ html {
     }
 
     .home-exp{
-        height: 55%;
+        height: 65%;
         font-size: 0.6rem;
     }
 
     .home-work{
-        height: 55%;
+        height: 90%;
     }
 
     .home-contact{
@@ -707,11 +722,7 @@ html {
 
       margin-bottom: 0.5vh;
     }
-    .resume{
-      padding: 15px;
-      margin-left: 25%;
-    	width: 50%;
-    }
+
 
     .contact-title{
       padding-top: 40%;
@@ -778,11 +789,7 @@ html {
 
       margin-bottom: 0.5vh;
     }
-    .resume{
-      padding: 15px;
-      margin-left: 25%;
-    	width: 50%;
-    }
+
 
     .contact-title{
       padding-top: 40%;
@@ -848,11 +855,7 @@ html {
 
     margin-bottom: 0.5vh;
   }
-  .resume{
-    padding: 15px;
-    margin-left: 25%;
-    width: 50%;
-  }
+
 
   .contact-title{
     padding-top: 20%;
@@ -918,11 +921,7 @@ html {
 
     margin-bottom: 0.5vh;
   }
-  .resume{
-    padding: 15px;
-    margin-left: 25%;
-    width: 50%;
-  }
+
 
   .contact-title{
     padding-top: 20%;
@@ -1003,10 +1002,7 @@ html {
       margin-bottom: 1vh;
   }
 
-  .resume{
-    margin-left:35%;
-    width:30%;
-  }
+
 
   .home-welcome{
       height: 100%;
