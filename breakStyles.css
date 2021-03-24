@@ -30,7 +30,7 @@
 
 .Case-Process{
   background-color: #f8f8ff  ;
-  height: 630%;
+  height: 690%;
   padding-top:10rem;
 }
 
@@ -53,7 +53,7 @@
 
 .Case-Conclusion{
   background-color: #FFFFFF  ;
-  height: 85%;
+  height: 120%;
 }
 
 .case-pic{
@@ -123,26 +123,33 @@
   }
 .Case-Problem{
   padding-top:5rem;
-  height: 115%;
+  height: 180%;
 }
   .Case-intro{
-    height:50%;
+    height:65%;
     padding-top:8rem;
   }
 
   .Case-Process{
-    height:755%;
+    height:1200%;
     padding-top:5rem;
 
   }
 
+  .Case-Visual{
+    height: 65%;
+    padding-top:4rem;
+
+}
+
+
 .Case-Solution{
   padding-top: 3rem;
-  height: 260%;
+  height: 460%;
 }
 
 .Case-Conclusion{
-  height: 70%;
+  height: 150%;
 }
 
 }
@@ -176,7 +183,7 @@
   }
 .Case-Problem{
   padding-top:5rem;
-  height: 90%;
+  height: 100%;
 }
   .Case-intro{
     height:40%;
@@ -184,7 +191,7 @@
   }
 
   .Case-Process{
-    height:620%;
+    height:750%;
     padding-top:5rem;
 
   }
@@ -203,11 +210,11 @@
   }
 .Case-Solution{
   padding-top: 3rem;
-  height: 215%;
+  height: 290%;
 }
 
 .Case-Conclusion{
-  height: 60%;
+  height: 100%;
 }
 
 
@@ -238,7 +245,7 @@
   }
 .Case-Problem{
   padding-top:5rem;
-  height: 95%;
+  height: 105%;
 }
   .Case-intro{
     height:40%;
@@ -246,7 +253,7 @@
   }
 
   .Case-Process{
-    height:660%;
+    height:770%;
     padding-top:5rem;
 
   }
@@ -265,11 +272,11 @@
 
 .Case-Solution{
   padding-top: 3rem;
-  height: 260%;
+  height: 300%;
 }
 
 .Case-Conclusion{
-  height: 60%;
+  height: 100%;
 }
 }
 
@@ -298,7 +305,7 @@
 }
 .Case-Problem{
 padding-top:5rem;
-height: 100%;
+height: 120%;
 }
 .Case-intro{
   height:40%;
@@ -306,18 +313,24 @@ height: 100%;
 }
 
 .Case-Process{
-  height:825%;
+  height:1175%;
   padding-top:5rem;
 
 }
 
+.Case-Visual{
+  background-color: #FFFFFF  ;
+  height: 145%;
+  padding-top:3rem;
+
+}
 .Case-Solution{
 padding-top: 3rem;
-height: 975%;
+height: 750%;
 }
 
 .Case-Conclusion{
-height: 100%;
+height: 150%;
 }
 
 
@@ -349,7 +362,7 @@ height: 100%;
 }
 .Case-Problem{
 padding-top:5rem;
-height: 90%;
+height: 120%;
 }
 .Case-intro{
   height:40%;
@@ -357,18 +370,18 @@ height: 90%;
 }
 
 .Case-Process{
-  height:715%;
+  height:1115%;
   padding-top:5rem;
 
 }
 
 .Case-Solution{
 padding-top: 3rem;
-height: 815%;
+height: 615%;
 }
 
 .Case-Conclusion{
-height: 80%;
+height: 140%;
 }
 }
 
@@ -385,7 +398,7 @@ height: 80%;
 }
 .Case-Problem{
 padding-top:5rem;
-height: 80%;
+height: 90%;
 }
 .Case-intro{
   height:45%;
@@ -393,7 +406,7 @@ height: 80%;
 }
 
 .Case-Process{
-  height:610%;
+  height:710%;
   padding-top:5rem;
 
 }
@@ -416,7 +429,7 @@ height: 300%;
 }
 
 .Case-Conclusion{
-height: 100%;
+height: 180%;
 }
 }
 
@@ -431,7 +444,7 @@ height: 100%;
   }
   .Case-Problem{
   padding-top:5rem;
-  height: 60%;
+  height: 70%;
   }
   .Case-intro{
     height:35%;
@@ -439,7 +452,7 @@ height: 100%;
   }
 
   .Case-Process{
-    height:450%;
+    height:550%;
     padding-top:5rem;
 
   }
@@ -462,7 +475,7 @@ height: 100%;
   }
 
   .Case-Conclusion{
-  height: 70%;
+  height: 130%;
   }
 }
 
@@ -476,7 +489,7 @@ height: 100%;
     }
     .Case-Problem{
     padding-top:5rem;
-    height: 75%;
+    height: 115%;
     }
     .Case-intro{
       height:55%;
@@ -484,18 +497,18 @@ height: 100%;
     }
 
     .Case-Process{
-      height:610%;
+      height:950%;
       padding-top:5rem;
 
     }
 
     .Case-Solution{
     padding-top: 10rem;
-    height: 380%;
+    height: 400%;
     }
 
     .Case-Conclusion{
-    height: 120%;
+    height: 200%;
     }
 }
 
@@ -510,7 +523,7 @@ height: 100%;
   }
   .Case-Problem{
   padding-top:5rem;
-  height: 55%;
+  height: 70%;
   }
   .Case-intro{
     height:45%;
@@ -518,18 +531,18 @@ height: 100%;
   }
 
   .Case-Process{
-    height:465%;
+    height:675%;
     padding-top:5rem;
 
   }
 
   .Case-Solution{
   padding-top: 8rem;
-  height: 350%;
+  height: 380%;
   }
 
   .Case-Conclusion{
-  height: 80%;
+  height: 140%;
   }
 }
 
@@ -548,7 +561,7 @@ height: 100%;
     }
 
     .Case-Process{
-      height:400%;
+      height:460%;
       padding-top:10rem;
 
     }
@@ -571,6 +584,6 @@ height: 100%;
     }
 
     .Case-Conclusion{
-    height: 50%;
+    height: 80%;
     }
 }
